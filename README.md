@@ -1,6 +1,6 @@
-# 📋 Annuaire Téléphonique - Cahier des Charges
+# 📋 Annuaire Téléphonique GROUPE 2 Angular  - Cahier des Charges
 
-Ce projet a été réalisé par un groupe de 2 étudiants de CRYPTO.
+Ce projet a été réalisé par un groupe de 4 étudiants de CRYPTO.
 
 ## Membres de l'équipe
 
@@ -115,7 +115,6 @@ PATCH  /api/contacts/:id/favorite
 - npm v9+
 
 ### 1. Installation des dépendances
-```bash
 # Clonez le dépôt
 git clone https://github.com/Julesnjiki237/Annuaire_t-l-phonique.git
 cd annuaire-telephonique
