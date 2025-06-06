@@ -104,3 +104,28 @@ DELETE /api/contacts/:id
 GET    /api/contacts/search?q=terme
 GET    /api/contacts/favorites
 PATCH  /api/contacts/:id/favorite
+
+
+## 🚀 Installation et Démarrage
+
+### Prérequis
+- Node.js v18+
+- MongoDB v6+
+- Angular CLI v19+
+- npm v9+
+
+### 1. Installation des dépendances
+```bash
+# Clonez le dépôt
+git clone https://github.com/Julesnjiki237/Annuaire_t-l-phonique.git
+cd annuaire-telephonique
+
+# Installez les dépendances du backend et du frontend
+cd backend
+npm install
+
+# Démarrer MongoDB (dans un nouveau terminal)
+mongod
+
+# Démarrer le frontend 
+ng serve ou npm run dev
