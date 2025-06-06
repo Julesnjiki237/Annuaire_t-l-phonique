@@ -93,18 +93,6 @@ Développer une application web complète permettant aux utilisateurs d'organise
 - Animations apparition (fade-in, slide-in)
 - Feedback visuel actions
 
-## 🔧 API REST Backend
-**Endpoints** :
-```http
-GET    /api/contacts
-GET    /api/contacts/:id
-POST   /api/contacts
-PUT    /api/contacts/:id
-DELETE /api/contacts/:id
-GET    /api/contacts/search?q=terme
-GET    /api/contacts/favorites
-PATCH  /api/contacts/:id/favorite
-
 
 ## 🚀 Installation et Démarrage
 
@@ -114,7 +102,7 @@ PATCH  /api/contacts/:id/favorite
 - Angular CLI v19+
 - npm v9+
 
-### 1. Installation des dépendances
+###. Installation des dépendances
 # Clonez le dépôt
 git clone https://github.com/Julesnjiki237/Annuaire_t-l-phonique.git
 cd annuaire-telephonique
@@ -128,3 +116,17 @@ mongod
 
 # Démarrer le frontend 
 ng serve ou npm run dev
+
+## 🔧 API REST Backend
+**Endpoints** :
+```http
+GET    /api/contacts
+GET    /api/contacts/:id
+POST   /api/contacts
+PUT    /api/contacts/:id
+DELETE /api/contacts/:id
+GET    /api/contacts/search?q=terme
+GET    /api/contacts/favorites
+PATCH  /api/contacts/:id/favorite
+
+
