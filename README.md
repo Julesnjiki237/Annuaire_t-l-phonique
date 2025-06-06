@@ -105,7 +105,7 @@ Développer une application web complète permettant aux utilisateurs d'organise
 ###. Installation des dépendances
 # Clonez le dépôt
 git clone https://github.com/Julesnjiki237/Annuaire_t-l-phonique.git
-cd annuaire-telephonique
+cd Annuaire_t-l-phonique
 
 # Installez les dépendances du backend et du frontend
 cd backend
